@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2019", // versão do ECMAScript 
+    "module": "CommonJS", // Vamos utilizar o node
+    "lib": ["DOM", "ESNext"], // é usada para especificar as bibliotecas de declaração de tipos que o compilador TypeScript deve incluir ao compilar o código
+    "outDir": "./dist", // onde compilar o projeto
+    "rootDir": "./src", // raiz do projeto
+    "removeComments": true, // remover comentarios do código compilado
+    "noEmitOnError": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // pular a checagem de arquivos que são declations file(.d.ts),
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./src"
+  ]
+}
